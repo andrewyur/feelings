@@ -51,7 +51,7 @@
         </select>
     </div>
     <div>
-        <button class="inverted font-[lucon] text-base h-10 px-7 w-fit">Done</button>
+        <button class="inverted font-[lucon] text-base h-10 px-7 w-fit">done</button>
         <button class="font-[lucon] text-base h-10 px-7 w-fit" onclick={() => goto("/")}>back</button>
     </div>
 </form>
