@@ -1,7 +1,5 @@
-# Tauri + SvelteKit + TypeScript
+# Feelings
 
-This template should help get you started developing with Tauri, SvelteKit and TypeScript in Vite.
+simple android app for journaling about your emotions 
 
-## Recommended IDE Setup
-
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer).
+<img src="https://raw.githubusercontent.com/andrewyur/feelings/main/tour.JPG"/>
