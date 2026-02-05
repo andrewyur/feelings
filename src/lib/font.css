@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'bahnschrift';
+    src: url('fonts/bahnschrift.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'lucon';
+    src: url('fonts/lucon.ttf') format('truetype');
+}

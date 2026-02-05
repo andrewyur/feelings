@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer components {
+  .inverted {
+    @apply bg-black text-white dark:bg-white dark:text-black;
+  }
+}
