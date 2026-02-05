@@ -11,7 +11,7 @@
 <script lang="ts">
     import { goto } from "$app/navigation";
 
-    import { load, Store } from "@tauri-apps/plugin-store";
+    import { load } from "@tauri-apps/plugin-store";
     import { onMount } from "svelte";
 
     let entries: { date: Date, entry: Entry}[] = $state([])
@@ -24,6 +24,8 @@
                 date: new Date(key),
                 entry: value as Entry
             }
+        }).sort((a, b) => { 
+            return b.date.valueOf() - a.date.valueOf()
         })
     })
 

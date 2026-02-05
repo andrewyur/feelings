@@ -40,11 +40,12 @@
     <textarea required name="because" use:center class="focus:outline-0 resize-y font-[lucon] text-base inverted h-30"></textarea>
     <p class="font-[lucon]">, but its ok because</p>
     <textarea required name="okbc" use:center class="focus:outline-0 resize-y font-[lucon] text-base inverted h-20"></textarea>
-    <p class="font-[lucon]">. to feel better, i did</p>
+    <p class="font-[lucon]">. to feel better, i</p>
     <textarea name="feelbetter" use:center class="focus:outline-0 resize-y font-[lucon] text-base inverted"></textarea>
     <div class="py-5">
         <p class="font-[lucon] inline pr-2">which</p>
         <select name="worked" class="focus:outline-0 font-[lucon] text-base inverted h-10 px-2 w-fit inline">
+            <option value="i havent done yet">i havent done yet</option>
             <option value="worked">worked</option>
             <option value="didnt work">didnt work</option>
             <option value="kind of worked">kind of worked</option>
